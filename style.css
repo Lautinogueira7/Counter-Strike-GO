@@ -18,12 +18,19 @@
 .titulos{
     margin: 0%;
     padding: 0%;
-    border: 4px solid #342D63;
+    border: 4px solid  #183761 ;
     color:white;
     text-align: center;
     font-family: 'Libre Baskerville', serif;
     font-size: 40px;
-    background-color: #342D63;
+    background-color: #183761;
+}
+
+.titulos2{
+    color:white;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 26px;
 }
 
 .imgTITLE{
@@ -49,69 +56,9 @@
     font-size: 20px;
     background-color: #342D63;
     text-decoration: none;
+    color: dark;
 }
 
- /*barra*/
- .topnav {
-    display: flex;
-    justify-content: space-between;
-    overflow: hidden;
-    background-color: #342D63;
-    text-align: center;
-
-  }
-
-  .topnav a {
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: 'Playfair Display', serif;
-    font-size: 26px;
-
-  }
-
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-/* Place the navbar at the bottom of the page, and make it stick */
-.navbar {
-    background-color: #342D63;
-    overflow: hidden;
-    bottom: 0;
-    width: 100%;
-    display: none;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 24px;
-    font-family: 'Playfair Display', serif;
-  }
-  
-  /* colores pasando el mouse */
-  .navbar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Add a green background color to the active link */
-  .navbar a.active {
-    background-color: #04271a;
-    color: white;
-  }
-  
-  /* Hide the link that should open and close the navbar on small screens */
-  .navbar .icon {
-    display: none;
-  }
 
 
 .textoDescrip{
@@ -119,7 +66,9 @@
     font-size: 17px;
     text-align: justify;
     margin: 1%;
+    color: black;
     font-weight: bold
+    
 }
 
 .majorlogo{
