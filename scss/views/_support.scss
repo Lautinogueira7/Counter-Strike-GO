@@ -1,3 +1,5 @@
+@import "../misc/var";
+
 .formulario{
     display: grid;
     margin: 0%;
@@ -6,13 +8,21 @@
     width: 380px;
     margin: auto;
     margin-top: 100px;
-    background: #086d7c;
+    background: $verde2;
     font-family: 'Libre Baskerville', serif;
     font-size: 400;
     border-radius: 4px;
     text-align: center;
 }
 
+.tformu{
+    color: $negro;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.agree{
+    color: $negro;
+}
 .soporte{
     text-align: center;
     margin-left: 40%;
@@ -30,12 +40,12 @@
     padding: 5px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 3px solid #342D63
+    border: 3px solid $violeta
     
 }
 
 .terminos{
-    color: black;
+    color: $negro;
     text-decoration: none;
 }
 .boton{
