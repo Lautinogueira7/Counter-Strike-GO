@@ -1,0 +1,17 @@
+.lugar{
+    padding: 0%;
+    margin: 1%;
+
+}
+
+@media(max-width: 1023px){
+    .lugar{
+        width: 550px;
+    }
+}
+
+@media(max-width: 768px){
+    .lugar{
+        width: 380px;
+    }
+}

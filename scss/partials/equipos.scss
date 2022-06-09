@@ -1,0 +1,36 @@
+.logosEquipos{
+    margin: 0%;
+    padding: 0%;
+    width: 75px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+}
+
+.tagEquipos{
+    color: black;
+    font-family: 'Patua One';
+    font-size: 35px;
+    margin-left: 0%;
+    margin-top: 10%;
+           
+}
+
+.gridTeams{
+    display: grid;
+    grid-template-areas: "auto auto auto auto";
+    align-items: center;
+    
+}
+
+@media(max-width:1023px){
+    .gridTeams{
+        grid-template-areas: "auto auto";
+    }
+}
+
+@media(max-width: 768px){
+    .gridTeams{
+        grid-template-areas: "auto";
+    }
+}

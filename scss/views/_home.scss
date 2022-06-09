@@ -1,0 +1,94 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, #097263, #0B7865, #247845, #267C3B, #218036, #0F2F2C);
+    min-height: 100vh;
+    font: normal 16px sans-serif;
+    padding: 0px 0;
+}
+
+.titulos{
+    margin: 0%;
+    padding: 0%;
+    border: 4px solid  #183761 ;
+    color:white;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 40px;
+    background-color: #183761;
+}
+
+.titulos2{
+    color:white;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 26px;
+}
+
+.imgTITLE{
+    height: 35px;
+    width: 40px;
+    margin-right: 0.5%;
+    margin-top: 0.2%;
+    
+}
+
+.titulochico{
+    color:black;
+    text-align: left;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    margin: 1%;
+    margin-top: 2%;
+}
+
+.textoDescrip{
+    font-family: 'Mukta', sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    margin: 1%;
+    color: black;
+    font-weight: bold
+}
+
+.majorlogo{
+    width: 60%;
+    margin-right: 15%;
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.indeximg{
+    display: grid;
+    grid-template-areas: "auto auto auto";
+}
+
+@media(max-width: 1440px){
+    .indeximg{
+        grid-template-areas: "auto auto";
+    }
+}
+
+@media(max-width: 1023px) {
+    body {
+        padding: 0;
+    }
+    .majorlogo{
+        max-width: 550px;
+    }
+    .indeximg{
+        width: 100%;
+        grid-template-areas: "auto";
+    }
+}
+
+@media(max-width: 768px){
+    .indeximg div img{
+        width: 386px;
+    }
+}
