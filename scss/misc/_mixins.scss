@@ -1,0 +1,25 @@
+@import url(./_var.scss);
+
+// MAPS
+$colores:(
+    verde: #0C7687,
+    verde2: #086d7c,
+    violeta: #342D63,
+);
+
+@each $nombres, $colors in $colores {
+    .bg-#{$nombres} {
+        background-color: $colors
+    }
+};
+
+/* mixins */
+
+@mixin var-hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.2s;
+}
+.hover:hover {
+    @include var-hover;
+}

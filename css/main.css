@@ -1,3 +1,4 @@
+@import url(./_var.scss);
 body {
   background-image: linear-gradient(to right, #097263, #0B7865, #247845, #267C3B, #218036, #0F2F2C);
   min-height: 100vh;
@@ -26,13 +27,16 @@ body {
   margin-right: 0.5%;
   margin-top: 0.2%; }
 
-.titulochico {
+.titulochico, .titulochico__nuevo {
   color: black;
   text-align: left;
   font-family: 'Libre Baskerville', serif;
   font-size: 30px;
   margin: 1%;
   margin-top: 2%; }
+
+.titulochico__nuevo {
+  color: white; }
 
 .textoDescrip {
   font-family: 'Mukta', sans-serif;
@@ -356,3 +360,18 @@ section div {
 * {
   margin: 0;
   padding: 0; }
+
+.bg-verde {
+  background-color: #0C7687; }
+
+.bg-verde2 {
+  background-color: #086d7c; }
+
+.bg-violeta {
+  background-color: #342D63; }
+
+/* mixins */
+.hover:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.2s; }

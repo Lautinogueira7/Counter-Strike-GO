@@ -40,6 +40,11 @@ body {
     margin-top: 2%;
 }
 
+.titulochico__nuevo{
+    @extend .titulochico;
+    color: white;
+}
+
 .textoDescrip{
     font-family: 'Mukta', sans-serif;
     font-size: 17px;
