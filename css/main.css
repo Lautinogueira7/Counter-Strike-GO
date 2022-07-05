@@ -138,7 +138,9 @@ body {
 
 @media (max-width: 1023px) {
   .container.gallery-container {
-    border-radius: 0; } }
+    border-radius: 0; }
+  .solucion {
+    justify-content: start !important; } }
 
 .formato {
   margin: 10px;
@@ -264,7 +266,8 @@ section div {
 .card {
   position: relative;
   width: 300px;
-  height: 350px; }
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.01) !important; }
 
 .card .face {
   position: absolute;
